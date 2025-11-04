@@ -9,6 +9,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "IMOKURI Docs",
+      favicon: "/favicon.ico",
       social: [
         { icon: "github", label: "GitHub", href: "https://github.com/IMOKURI" },
       ],
