@@ -32,6 +32,11 @@ export default defineConfig({
           light: { flavor: "latte" },
         }),
       ],
+      customCss: [
+        "@fontsource-variable/m-plus-2",
+        "@fontsource-variable/m-plus-1-code",
+        "./src/styles/custom.css",
+      ],
     }),
   ],
 });
